@@ -3314,6 +3314,7 @@ dev/usb/net/uhso.c		optional uhso
 #
 # USB WLAN drivers
 #
+dev/usb/wlan/if_mt7610.c	optional mt7610
 dev/usb/wlan/if_rsu.c		optional rsu
 rsu-rtl8712fw.c			optional rsu-rtl8712fw | rsufw		\
 	compile-with	"${AWK} -f $S/tools/fw_stub.awk rsu-rtl8712fw.fw:rsu-rtl8712fw:120 -mrsu-rtl8712fw -c${.TARGET}" \
